@@ -32,11 +32,11 @@ router.post("/", async (req, res) => {
     subject: "Sending with Twilio SendGrid is Fun",
     text: `Hello, thanks for registering on our site.
     Please copy and paste the address below to reset your password.
-    https://https://reset-password-workflow.netlify.app/resetpassword/${user.resetToken}`,
+    https://reset-password-workflow.netlify.app/resetpassword/${user.resetToken}`,
     html: `<h1>Hello,</h1>
     <p>thanks for refistering on our site.</p>
     <p>Please click the link below to reset your password.</p>
-    <a href="https://https://reset-password-workflow.netlify.app/resetpassword/${user.resetToken}">Verify Your Account</a>`,
+    <a href="https://reset-password-workflow.netlify.app/resetpassword/${user.resetToken}">Verify Your Account</a>`,
   };
 
   (async () => {
